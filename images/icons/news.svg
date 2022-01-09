@@ -1,0 +1,8 @@
+<svg id="newspaper_black_24dp" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_53" data-name="Group 53">
+    <rect id="Rectangle_43" data-name="Rectangle 43" width="30" height="30" fill="none"/>
+  </g>
+  <g id="Group_54" data-name="Group 54" transform="translate(2.5 3.75)">
+    <path id="Path_72" data-name="Path 72" d="M27,3,24.913,5.088,22.837,3,20.75,5.088,18.663,3,16.587,5.088,14.5,3,12.413,5.088,10.337,3,8.25,5.088,6.162,3,4.088,5.088,2,3V23a2.507,2.507,0,0,0,2.5,2.5h20A2.507,2.507,0,0,0,27,23ZM13.25,23H4.5V15.5h8.75ZM24.5,23H15.75V20.5H24.5Zm0-5H15.75V15.5H24.5Zm0-5H4.5V9.25h20Z" transform="translate(-2 -3)" fill="#999"/>
+  </g>
+</svg>

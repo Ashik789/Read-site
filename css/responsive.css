@@ -1,0 +1,77 @@
+
+  @media (min-width: 990px) {
+      
+  }
+
+/* Tablet-pro desktop :1024px. */
+@media  (max-width: 1024px) {
+  #cssmenu #menu-button{top: -60px;}
+    .tab-menupad{margin-top: 20px !important;}
+    .header-appear #cssmenu #menu-button{top: -60px;}
+}
+
+
+
+/* small mobile :825px. */
+@media (max-width: 825px) {
+  .top-header .col-md-12, .top-header .text-right{text-align: center !important;}
+  header{padding: 20px 0px;}
+  header #cssmenu ul img{display: inline-block; margin: 0px; margin-right: 10px;}
+  #cssmenu > ul > li > a{padding: 10px 16px; text-align: left;}
+  .about-img{margin-bottom: 20px;}
+  .about-us .col-lg-2.col-md-12 img{max-width: 45%; margin-top: 20px;}
+  h1{font-size: 24px;}
+  .feature-box{min-height: 135px; padding: 20px 8px;}
+  .who-we-are img{max-width: 100%; margin-bottom: 20px;}
+  .news-events .owl-nav .owl-prev, .news-events .owl-nav .owl-next{top: -35%;}
+  .footer-logo{text-align: center;}
+  footer h4{margin-top: 20px;}
+}
+
+/* small mobile :767px. */
+@media (max-width: 767px) {
+   .bs-slider{height: 410px;}
+   .header-appear #cssmenu #menu-button{top: -45px;}
+   .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img{height: 410px;}
+   .header-appear .logo{max-height: 40px;}
+   .header-appear{padding: 10px 0px;}
+   .about-us, .our-faculty, .who-we-are, .news-events, .testimonials, footer{padding: 30px 0px;}
+   .top-header ul li{margin-left: 0px; font-size: 12px;}
+   .line-1{margin-bottom: 10px;}
+   .about-us .col-md-2{text-align: center;}
+   .about-us .col-md-2 img{max-width: 45%; margin-top: 20px;}
+   .course h5, .who-we-are h5, footer h4{margin-top: 20px;}
+   .who-we-are h5{font-size: 15px;}
+   .pad-top60{padding-top: 30px;}
+   .who-we-are .about-img{margin-top: 20px;}
+   .news-events{padding-bottom: 0px;}
+   .owl-carousel .owl-item img{width: auto; display: inline-block;}
+   .footer-logo{text-align: center;}
+   .copy-right ul{float: none;}
+   .news-events .owl-nav .owl-prev, .news-events .owl-nav .owl-next{top: -30%;}
+   .news-events .owl-carousel .owl-item img{width: 100%;}
+   .news-box-content h5{height: auto;}
+
+
+    
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+  
+}
+
+@media (max-width: 480px) {
+  .pad-50{padding: 30px 20px;}
+  .our-features p, .news-events p{display: none;}
+  .news-events .owl-nav .owl-prev, .news-events .owl-nav .owl-next{top: -18%;}
+  .news-box-content{padding: 10px;}
+  .testimonials-box{padding: 20px;}
+  .copy-right{text-align: center;}
+}
+
+@media (max-width: 380px) {
+
+}
+ 
