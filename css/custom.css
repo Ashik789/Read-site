@@ -170,12 +170,57 @@ line-height: 30px; color: #fff; overflow: hidden; border-radius: 6px; }
 .quiz-result button{margin-top: 20px; min-width: 180px;}
 .quiz-popup{padding: 20px; background: #fff; border-radius: 8px; width: 100%; max-width: 550px;}
 .quiz-popup h5{font-weight: 600;}
-.quiz-popup .form-control:focus{box-shadow: none; border-color: #007A8A;}
+.form-control:focus{box-shadow: none; border-color: #007A8A;}
 input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.student-dashboard{padding: 60px 0px; background: rgba(0, 122, 138, 0.05);}
+.student-profile{padding: 20px; text-align: center; border-bottom: 1px solid #ddd; }
+.student-image{width: 90px; height: 90px; border-radius: 50%; background: rgba(0, 122, 138, 0.05); display: inline-block; line-height: 90px;
+border-radius: 50%; overflow: hidden; margin-bottom: 5px;}
+.student-image img{width: 100%; height: 90px; object-fit: cover;}
+.dashboard-left{background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 3%);}
+.student-profile h6{font-weight: 600;}
+.tab-title li{padding: 10px 20px; color: #000; font-weight: 600; display: block;}
+.tab-title li.active{background: #DC9F11; color: #fff;}
+.tab-title li i{padding-right: 10px;}
+.dashboard-right{padding: 20px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 3%);}
+.dashboard-right h4{font-weight: 600; color: #000; display: inline-block; padding-top: 6px;}
+.dashboard-title{border-bottom: 1px solid #ddd; padding-bottom: 15px;}
+.dashboard-title button{float: right; padding: 5px 12px; font-size: 12px; box-shadow: none; min-width: 100px;  background: none; border: 1px solid #DC9F11; color: #DC9F11;}
+button.db-leave{ background: none; border-color: #007A8A; color: #007A8A; margin-right: 5px;}
+.dashboard-title button:focus, .dashboard-title button:hover{background: #DC9F11; color: #fff;}
+button.db-leave:focus, button.db-leave:hover{background: #007A8A;}
+.addleave-popup{width: 100%; max-width: 550px; border-radius: 8px; padding: 20px; background: #fff;}
+.addleave-popup h5{border-bottom: 1px solid #ddd; padding-bottom: 10px; font-weight: 600; margin-bottom: 20px;}
+.addleave_close{position: absolute; right: 15px; top: 15px; background: rgba(0, 122, 138, 0.05); width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 50%;}
+.addleave-popup label sup{color: red; font-size: 14px; top: 0px;}
+.addleave-popup input[type='file']{height: 45px;}
+.dashboard-box{padding: 20px; border-radius: 8px; overflow: hidden; color: #fff; text-align: center; margin-bottom: 30px; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 15%);}
+.dashboard-content{padding: 25px 0px;}
+.dashboard-content h5{color: #007A8A;}
+.dashboard-box h5{margin-bottom: 0px; color: #fff; font-weight: 600;}
+.notification-box{border: 1px solid rgba(0, 122, 138, 0.5); background: rgba(0, 122, 138, 0.05); padding:10px 20px; border-radius: 8px; margin-top: 15px;}
+.notification-box h6{font-weight: 600; font-size: 14px;}
+.notification-box p, .notification-box label{font-size: 12px; margin-bottom: 0px;}
+.notification-box label i{padding-right: 5px;}
+.notification-box label{color: #007A8A;}
+.student-feereport{margin-top: 30px;}
+.student-feereport h5{color: #000; font-weight: 600; font-size: 18px;}
+.student-feereport .table thead{background: #007A8A; color: #fff;}
+.student-feereport .table tr:nth-child(even){background: rgba(0, 122, 138, 0.05);}
+.pagination .page-link{color: #007A8A; border-color: #ddd; margin-left: 3px;}
+.page-item:first-child .page-link {margin-left: 0; }
+.page-item.active .page-link { background-color: #007A8A; color:#fff; border-color: #007A8A; }
+.page-link:focus, .page-link:hover { background-color: #007A8A; color: #fff !important; border-color: #007A8A; }
+.student-feereport .table td{font-size: 12px;}
+.student-feereport .table .badge{padding: 5px 12px;}
+.dashboard-content .form-control{font-size: 12px;}
+.attendence-filter button{ margin-top: 24px; width: 100%; min-width: auto; border-radius: 5px;}
+.attendence-filter .table th{background: #007A8A; color: #fff;}
+.attendence-filter .table td .fa-check{color: green;}
+.attendence-filter .table td .fa-times{color: red;}
+.dashboard-content input[type='file']{height: 38px;}
+#profile .dashboard-content button{margin-top: 20px;}
 
 @keyframes pulse-border {
     0% {
