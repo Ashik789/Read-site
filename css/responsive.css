@@ -10,6 +10,10 @@
     .header-appear #cssmenu #menu-button{top: -60px;}
 }
 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .dashboard-box{min-height: 130px;}
+}
 
 
 /* small mobile :825px. */
@@ -26,6 +30,7 @@
   .news-events .owl-nav .owl-prev, .news-events .owl-nav .owl-next{top: -35%;}
   .footer-logo{text-align: center;}
   footer h4{margin-top: 20px;}
+  .dataTables_info{font-size: 12px;}
 }
 
 /* small mobile :767px. */
@@ -35,7 +40,7 @@
    .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img{height: 410px;}
    .header-appear .logo{max-height: 40px;}
    .header-appear{padding: 10px 0px;}
-   .about-us, .our-faculty, .who-we-are, .news-events, .testimonials, footer{padding: 30px 0px;}
+   .about-us, .our-faculty, .who-we-are, .news-events, .testimonials, footer, .student-dashboard, .contact-us, .admissions{padding: 30px 0px;}
    .top-header ul li{margin-left: 0px; font-size: 12px;}
    .line-1{margin-bottom: 10px;}
    .about-us .col-md-2{text-align: center;}
@@ -51,6 +56,14 @@
    .news-events .owl-nav .owl-prev, .news-events .owl-nav .owl-next{top: -30%;}
    .news-events .owl-carousel .owl-item img{width: 100%;}
    .news-box-content h5{height: auto;}
+   .dashboard-left{margin-bottom: 20px; height: auto !important;}
+   .dashboard-right{padding: 10px 0px;}
+   .dashboard-box{margin-bottom: 10px;}
+   .rs-top20{margin-top: 20px;}
+   .inner-pages{padding: 50px 0px;}
+   .contact-box{height: auto; margin-bottom: 30px;}
+   .admission-box{margin-bottom: 20px;}
+   .admission-box .tab-title li{display: inline-block; font-size: 12px; padding: 8px; border: none;}
 
 
     
@@ -69,6 +82,9 @@
   .news-box-content{padding: 10px;}
   .testimonials-box{padding: 20px;}
   .copy-right{text-align: center;}
+  .dashboard-title button{min-width: auto; padding: 3px 5px; border-radius: 4px;}
+  .admission-content-box{padding: 7px;}
+  .admission-content-box h4{font-size: 16px; margin-bottom: 5px;}
 }
 
 @media (max-width: 380px) {

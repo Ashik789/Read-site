@@ -51,7 +51,7 @@
                           <li><a href='javaScript:void(0)'><img src="images/icons/course.svg"> Courses</a></li>
                           <li><a href='javaScript:void(0)'><img src="images/icons/gallery.svg"> Gallery</a></li>
                           <li><a href='javaScript:void(0)'><img src="images/icons/news.svg"> News & Events</a></li>
-                          <li><a href='contact-us.html'><img src="images/icons/contact.svg"> Contact us</a></li>
+                          <li class="active"><a href='contact-us.html'><img src="images/icons/contact.svg"> Contact us</a></li>
                         </ul>
                       </div>
     
@@ -60,67 +60,93 @@
         </div>
     </header>
 
-    <section class="quiz">
+    <section class="inner-pages">
+        <div class="inner-overlay"></div>
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-box">
+                        <h5>Get in Touch</h5>
+                        <div class="line-1"></div>
+                        <div class="contact-address">
+                            <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+                            <p>Rewaq Ousha Educational <br> Institute Villa 3, Al Twar 2 - Dubai - United Arab Emirates</p>
+                            <hr>
+                            <h4><i class="fas fa-phone fa-rotate-90"></i> Call us</h4>
+                            <p><a href="tel:+971503842027">+971 50 384 2027</a> <br><a href="tel:+97142611200">+971 426 11 200</a></p>
+                            <hr>
+                            <h4><i class="far fa-envelope"></i> E-mail</h4>
+                            <p><a href="mailto:read@rewaqousha.com">read@rewaqousha.com</a></p>
+                            <hr>
+                            <h4><i class="fab fa-connectdevelop"></i> Social networks</h4>
+                            <p>
+                                <a href="javascript:void(0)"><i class="fab fa-facebook-f facebook-c"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-instagram instagram-c"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-linkedin-in linkedin-c"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-youtube youtube-c"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-7">
-                    <div class="quiz-box">
-                       <div class="quiz-box-header">
-                        <h4>Entrance Test </h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                    <div class="contact-box">
+                        <h5>Send Us a Message!</h5>
+                        <div class="line-1"></div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
                             </div>
-                       </div>
-                       <div id="countdown"></div>
-                       <h6>40% complete</h6>
-                    </div>
-                    <div class="quiz-box-content">
-                        <h6>Question 2 / 5</h6>
-                        <h5>How many pillars are there for Islam? </h5>
-                        <div class="form-group">
-                            <label class="quiz-radio">
-                                <input type="radio" name="radio">
-                                <span class="checkmark3">
-                                    <h6> 6</h6>
-                                    <i class="far fa-check-circle"></i>
-                                </span>
-                            </label>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Phone</label>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea rows="3" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button><i class="fas fa-paper-plane"></i> Send</button>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label class="quiz-radio">
-                                <input type="radio" name="radio">
-                                <span class="checkmark3">
-                                    <h6>8</h6>
-                                    <i class="far fa-check-circle"></i>
-                                </span>
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label class="quiz-radio">
-                                <input type="radio" name="radio">
-                                <span class="checkmark3">
-                                    <h6>5</h6>
-                                    <i class="far fa-check-circle"></i>
-                                </span>
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label class="quiz-radio">
-                                <input type="radio" name="radio">
-                                <span class="checkmark3">
-                                    <h6>11</h6>
-                                    <i class="far fa-check-circle"></i>
-                                </span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="quiz-box-footer">
-                        <a href="quiz-3.html"><button>Next</button></a>
-                        <a href="quiz-2.html"><button class="bt-back">Back</button></a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.109230323349!2d55.37654501448577!3d25.266910735070265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dc37afe1da7%3A0xf69980b93353971f!2sRewaq%20Ousha%20Educational%20Institute!5e0!3m2!1sen!2sin!4v1642175206526!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
 
     <footer>
@@ -150,12 +176,11 @@
                 <div class="col-lg-3 col-md-4 footer-links">
                     <h4>quick links</h4>
                     <ul>
-                        <li><a href="javaScript:void(0)">Home</a></li>
-                        <li><a href="javaScript:void(0)">About Us</a></li>
-                        <li><a href="javaScript:void(0)">Courses</a></li>
-                        <li><a href="javaScript:void(0)">Gallery</a></li>
-                        <li><a href="javaScript:void(0)">News & Events</a></li>
-                        <li><a href="javaScript:void(0)">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="admission.html">Admissions</a></li>
+                        <li><a href="student-dashboard.html">Dashboard</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 footer-subscribe">
@@ -187,21 +212,10 @@
 <script src="js/menu.js"></script>
 <script src="js/slider.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.popupoverlay.js"></script>
 <script src="js/scrolltoTop.min.js"></script>
 <script src="js/script.js"></script>
 
-<script>
-    var timeleft = 10;
-        var downloadTimer = setInterval(function(){
-        if(timeleft <= 0){
-            clearInterval(downloadTimer);
-            document.getElementById("countdown").innerHTML = "Time Up";
-        } else {
-            document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
-        }
-        timeleft -= 1;
-        }, 1000);
-</script>
 
 </body>
 </html>

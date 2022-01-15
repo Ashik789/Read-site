@@ -19,7 +19,7 @@ header #cssmenu ul li{text-align: center;}
 .about-us{padding: 60px 0px;}
 .about-img{position: relative; overflow: hidden; border-radius: 10px;}
 .about-img img{ height: 362px; object-fit: cover; transition: all 0.3s ease-in; width: 100%;}
-.about-img:hover img{transform: scale(1.5);}
+.about-img:hover img{transform: scale(1.3);}
 .line-1{width: 150px; height: 4px; background: #007A8A; margin-bottom: 20px; display: inline-block;}
 .about-us h1{ font-weight: 700;}
 button{min-width: 150px; background: #DC9F11; border-radius: 30px; color: #fff; font-size: 16px; letter-spacing: 1px;
@@ -64,7 +64,7 @@ left: 0px;  filter: brightness(0) invert(1);}
 .faculty-box-content h5{color: #007A8A; font-weight: 600; font-size: 18px;}
 .faculty-img, .news-box-img{overflow: hidden; position: relative;}
 .faculty-img img{transition: all ease-in 0.3s;}
-.faculty-box:hover .faculty-img img, .news-box:hover .news-box-img img{transform: scale(1.5);}
+.faculty-box:hover .faculty-img img, .news-box:hover .news-box-img img{transform: scale(1.3);}
 .owl-carousel {touch-action: manipulation;}
 .owl-stage-outer{padding-bottom: 30px;}
 .owl-dots{text-align: center;}
@@ -106,7 +106,7 @@ right: 0;  padding: 0; position: absolute; text-align: center; top: -26%; width:
 .news-events .owl-nav .owl-next:hover{background: #007A8A;}
 .latest-photos{padding-bottom: 30px; position: relative; overflow: hidden;}
 .photo-box{position: relative; overflow: hidden; border-radius: 8px; margin-bottom: 30px;}
-.photo-box:hover img{transform: scale(1.5);}
+.photo-box:hover img{transform: scale(1.3);}
 .photo-box i{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 35px; height: 35px; background: #DC9F11; color: #fff;
 line-height: 35px; border-radius: 50%; text-align: center; opacity: 0;}
 .photo-box:hover i{opacity: 1;}
@@ -221,6 +221,58 @@ button.db-leave:focus, button.db-leave:hover{background: #007A8A;}
 .attendence-filter .table td .fa-times{color: red;}
 .dashboard-content input[type='file']{height: 38px;}
 #profile .dashboard-content button{margin-top: 20px;}
+.inner-pages{padding: 80px 0px; overflow: hidden; background: url(../images/inner-bgm.jpeg) center; background-size: cover;
+text-align: center; position: relative; color: #fff;}
+.inner-overlay{position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 122, 138, 0.6);}
+.inner-pages h1{font-weight: 600; color: #fff; margin-bottom: 0px;}
+.map{width: 100%; height: 300px; overflow: hidden;}
+.contact-us{padding: 60px 0px;}
+.contact-box{height: 100%; padding: 20px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 5%);}
+.contact-box h5{font-weight: 600;}
+.contact-box .line-1{width: 60px; display: block;}
+.contact-address { padding-left: 50px; position: relative;}
+.contact-address h4 {  color: #007A8A; font-size: 18px;}
+.contact-address h4 i { position: absolute; left: 0px; width: 30px; height: 30px;background:#DC9F11;color: #fff;
+text-align: center;border-radius: 50%; font-size: 15px; line-height: 30px;}
+.contact-address p i { width: 30px; height: 30px; border-radius: 4px; text-align: center; padding-top: 7px; font-size: 18px; color: #fff;
+transition: all 0.5s; margin-top: 6px;}
+.facebook-c { background: #3b5998;}
+.facebook-c:hover { background: #37528d; transition: .3s ease-in; margin-top: -5px;}
+.linkedin-c { background: #0e76a8;}
+.linkedin-c:hover {  background: #0d6e9d;}
+.twitter-c {  background: #55acee;}
+.twitter-c:hover { background: #51a4e3;}
+.youtube-c {  background: #d42428;}
+.youtube-c:hover { background: #c92226;}
+.instagram-c { background: #C13584;}
+.instagram-c:hover { background: #C13584;}
+.contact-address p i:hover,
+.contact-address p img:hover { -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .2); box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .2);
+-webkit-transform: translateY(-5px); transform: translateY(-5px);}
+.contact-address p img { width: 33px; margin-top: -7px;}
+.contact-box button{margin-top: 10px;}
+.admissions{padding: 60px 0px;}
+.admission-box{ background: #007A8A; border-radius: 5px; overflow: hidden; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 5%); color: #fff; position: sticky; top: 115px;}
+.admission-box .tab-title li{color: #fff; border-bottom: 1px solid #E5E5EA;}
+.admission-content{padding:0px 20px 20px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 5%);}
+.admission-content h5{color: #007A8A; margin-top: 25px;}
+.admission-content ul{margin-bottom: 20px;}
+.admission-content ul li{padding-left: 25px; position: relative;}
+.admission-content ul li::before{content: "\f0c8"; font-family: "Font Awesome 5 Free"; font-weight: 900; position: absolute; left:0px; color: #DC9F11;}
+.admission-content-box{text-align: center; background: #DC9F11; color: #fff; padding: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 5%); margin-bottom: 20px;}
+.admission-content-box h4{font-weight: 700; font-size: 20px;}
+.apply-online h4{color: #DC9F11; font-weight: 600; margin-top: 25px;}
+.apply-online .line-1{width: 60px; margin-bottom: 20px; display: block;}
+.apply-online button{margin-top: 10px;}
+.downloads{border: 1px solid #ddd; border-radius: 8px; overflow: hidden; padding: 15px; text-align: center; margin-top: 30px; background: #fff;
+box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 2%); transition: all ease-in 0.3s; min-height: 115px; position: relative;}
+.downloads:hover{transform: translateY(-15px);}
+.downloads h6{font-size: 14px; line-height: 18px; margin-bottom: 0px;}
+.downloads i{font-size: 30px; color: #FF3B30; margin-bottom: 10px;}
+.downloads:hover h6{color: #007A8A;}
+.downloads-content{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%;}
+.enqiury-btn{background: #DC9F11; color: #fff; padding: 8px 16px; font-size: 16px; font-weight: 600; display: inline-block;
+position: fixed; right: -45px; top: 50%; transform: rotate(-90deg);     border-top-left-radius: 5px;border-top-right-radius: 5px;}
 
 @keyframes pulse-border {
     0% {
